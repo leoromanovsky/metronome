@@ -3,7 +3,7 @@ A Docker image for [Metronome](https://github.com/dcos/metronome), the DC/OS job
 
 ## Usage
 
-You can pass all configuration properties via environment variables, **but with `_` instead of `.` (all lowercase)**. The properties can be found at [src/main/scala/dcos/metronome/MetronomeConfig.scala](https://github.com/dcos/metronome/blob/v0.3.3/src/main/scala/dcos/metronome/MetronomeConfig.scala#L16-L49).
+You can pass all configuration properties via environment variables, **but with `_` instead of `.` (all lowercase)**. The properties can be found at [src/main/scala/dcos/metronome/MetronomeConfig.scala](https://github.com/dcos/metronome/blob/v0.3.4/src/main/scala/dcos/metronome/MetronomeConfig.scala#L16-L49).
 
 The current list of configuration properties is:
 

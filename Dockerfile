@@ -4,7 +4,7 @@ ENV BUILD_DIR /build
 ENV APP_DIR /app
 
 # Overall ENV vars
-ENV MESOS_VERSION 1.5.0-2.0.1
+ENV MESOS_VERSION 1.4.1-2.0.1
 ENV METRONOME_VERSION 0.3.4
 
 # Add package sources and install
@@ -30,7 +30,7 @@ FROM java:openjdk-8-jdk
 ENV APP_DIR /app
 
 # Overall ENV vars
-ENV MESOS_VERSION 1.5.0-2.0.1
+ENV MESOS_VERSION 1.4.1-2.0.1
 ENV METRONOME_VERSION 0.3.4
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF && \
